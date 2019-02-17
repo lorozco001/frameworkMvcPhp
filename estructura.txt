@@ -1,0 +1,24 @@
+app = configuraciones del proyecto mvc
+	config =
+		configurar.php = credenciales de conexion a las bases de datos (host, db, usuarios, password)
+	controladores =
+	helpers = son ayudantes para la aplicacion
+	librerias = contendra librerias para la aplicacion (jquery, alertify, bootstrap, select 2 y etc).
+		base.php = crea la conexion a la base de datos.
+		controlador.php = plantilla del controlador principal. 
+		core.php = configuraciones programacion de la url.
+	modelos = clases que cinectan con las bases de datos
+	vistas =
+		inc =
+			header.php
+			footer.php
+		paginas =
+			inicio.php
+	iniciador.php = inicia carga todas las clases.
+public = lo que na a ver los usuarios 
+	css = los archivos css del proyecto.
+		estilos.css =estilo principal del proyecto.
+	js = los archivos js del proyecto.
+		main.js	
+	img = las imagenes del proyecto.
+	index.php 
